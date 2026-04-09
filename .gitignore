@@ -1,0 +1,7 @@
+node_modules/
+out/
+RelogioDinamico-win32-x64/
+RelogioDinamico-darwin-arm64/
+*.exe
+*.app
+*.zip
