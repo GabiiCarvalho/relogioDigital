@@ -1,7 +1,6 @@
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
-const saudacao = document.getElementById('saudacao');
 const skyContainer = document.querySelector('.sky'); 
 
 function updateClockAndScenario() {
@@ -9,17 +8,16 @@ function updateClockAndScenario() {
     let hr = dateToday.getHours();
     let min = dateToday.getMinutes();
     let seg = dateToday.getSeconds();
-    let mensagem = "";
 
 
     if (hr >= 5 && hr <= 12) {
-        mensagem = 'Bom Dia!';
+       
         document.body.className = "morning";
     } else if (hr >= 13 && hr <= 17) {
-        mensagem = 'Boa Tarde!';
+        
         document.body.className = "afternoon";
     } else {
-        mensagem = 'Boa Noite!';
+        
         document.body.className = "night";
     }
 
