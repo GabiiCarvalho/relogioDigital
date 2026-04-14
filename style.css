@@ -142,7 +142,7 @@ body {
 .bird-container--two { 
     top: 25%;
     animation: bird-fly-path-straight 22s linear infinite; 
-    animation-delay: 0s;
+    animation-delay: 4s;
 }
 
 .bird-container--three { 
